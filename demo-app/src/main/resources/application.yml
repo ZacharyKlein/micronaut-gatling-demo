@@ -1,0 +1,7 @@
+micronaut:
+  application:
+    name: gatlingDemo
+
+
+getFailureChance: 1000
+postFailureChance: 100
