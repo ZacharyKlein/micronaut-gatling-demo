@@ -8,7 +8,7 @@ class BasicSimulation extends Simulation {
 
     /** * Variables ** */
   def baseUrl: String = getProperty("loadtests.baseurl", "http://localhost:8080/home")
-  def userCount: Int = getProperty("loadtests.users", "10000").toInt
+  def userCount: Int = getProperty("loadtests.users", "100").toInt
   def testDuration: Int = getProperty("loadtests.duration", "3000").toInt
   def rampDuration: Int = getProperty("loadtests.rampduration", "20").toInt
 
